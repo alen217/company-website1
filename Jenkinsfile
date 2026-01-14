@@ -16,7 +16,7 @@ pipeline{
     stage('Building Docker Image'){
       steps{
         echo 'Building docker Image'
-        bat 'docker build -t company=website1 .'
+        bat 'docker build -t company-website1 .'
       }
     }
     stage('Run docker container'){
